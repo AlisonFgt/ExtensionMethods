@@ -38,5 +38,5 @@ private void LoadCampaignFormPox(IList<CampaignFormPos> cfps, CampaignFormPosGro
 
     result.AddRange(campaignNews);
 
-    return result;
+    cfps = result;
 }
